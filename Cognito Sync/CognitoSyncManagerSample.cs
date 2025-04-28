@@ -162,7 +162,7 @@ namespace AWSSDK.Examples
 					        {
 						Debug.Log("starting thread");
 
-                        // shows to connect the current identityid or create a new identityid with facebook authentication
+                        // shows to connect the current identity ID or create a new identity ID with facebook authentication
                         FB.LogInWithReadPermissions(facebookPermissions, FacebookLoginCallback);
 					});
 				}
