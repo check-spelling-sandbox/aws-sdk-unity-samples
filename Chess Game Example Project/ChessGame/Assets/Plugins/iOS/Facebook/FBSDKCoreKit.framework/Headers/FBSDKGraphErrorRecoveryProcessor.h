@@ -32,7 +32,7 @@
  @abstract Indicates the error recovery has been attempted.
  @param processor the processor instance.
  @param didRecover YES if the recovery was successful.
- @param error the error that that was attempted to be recovered from.
+ @param error the error that was attempted to be recovered from.
  */
 - (void)processorDidAttemptRecovery:(FBSDKGraphErrorRecoveryProcessor *)processor didRecover:(BOOL)didRecover error:(NSError *)error;
 
