@@ -58,7 +58,7 @@
 @property (nonatomic, strong, readonly) NSDictionary *appLinkExtras;
 
 /*!
- The App Link indicating how to navigate back to the referer app, if any.
+ The App Link indicating how to navigate back to the referrer app, if any.
  */
 @property (nonatomic, strong, readonly) BFAppLink *appLinkReferer;
 

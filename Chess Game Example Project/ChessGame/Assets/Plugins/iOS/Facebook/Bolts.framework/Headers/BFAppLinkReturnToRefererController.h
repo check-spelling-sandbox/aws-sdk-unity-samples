@@ -18,7 +18,7 @@
 
 /*!
  Protocol that a class can implement in order to be notified when the user has navigated back
- to the referer of an App Link.
+ to the referrer of an App Link.
  */
 @protocol BFAppLinkReturnToRefererControllerDelegate <NSObject>
 
@@ -28,7 +28,7 @@
 - (void)returnToRefererController:(BFAppLinkReturnToRefererController *)controller
             willNavigateToAppLink:(BFAppLink *)appLink;
 
-/*! Called after the navigation has been attempted, with an indication of whether the referer
+/*! Called after the navigation has been attempted, with an indication of whether the referrer
  app link was successfully opened. */
 - (void)returnToRefererController:(BFAppLinkReturnToRefererController *)controller
              didNavigateToAppLink:(BFAppLink *)url
@@ -43,7 +43,7 @@
 @interface BFAppLinkReturnToRefererController : NSObject <BFAppLinkReturnToRefererViewDelegate>
 
 /*!
- The delegate that will be notified when the user navigates back to the referer.
+ The delegate that will be notified when the user navigates back to the referrer.
  */
 @property (nonatomic, weak) id<BFAppLinkReturnToRefererControllerDelegate> delegate;
 
@@ -70,13 +70,13 @@
 - (void)removeFromNavController;
 
 /*!
- Shows the BFAppLinkReturnToRefererView with the specified referer information. If nil or missing data,
+ Shows the BFAppLinkReturnToRefererView with the specified referrer information. If nil or missing data,
  the view will not be displayed. */
-- (void)showViewForRefererAppLink:(BFAppLink *)refererAppLink;
+- (void)showViewForRefererAppLink:(BFAppLink *)referrerAppLink;
 
 /*!
- Shows the BFAppLinkReturnToRefererView with referer information extracted from the specified URL.
- If nil or missing referer App Link data, the view will not be displayed. */
+ Shows the BFAppLinkReturnToRefererView with referrer information extracted from the specified URL.
+ If nil or missing referrer App Link data, the view will not be displayed. */
 - (void)showViewForRefererURL:(NSURL *)url;
 
 /*!

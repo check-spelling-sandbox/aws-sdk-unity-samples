@@ -24,7 +24,7 @@ typedef NS_ENUM(NSUInteger, BFIncludeStatusBarInSize) {
 
 /*!
  Protocol that a class can implement in order to be notified when the user has navigated back
- to the referer of an App Link.
+ to the referrer of an App Link.
  */
 @protocol BFAppLinkReturnToRefererViewDelegate <NSObject>
 
@@ -44,14 +44,14 @@ typedef NS_ENUM(NSUInteger, BFIncludeStatusBarInSize) {
 /*!
  Provides a UIView that displays a button allowing users to navigate back to the
  application that launched the App Link currently being handled, if the App Link
- contained referer data. The user can also close the view by clicking a close button
+ contained referrer data. The user can also close the view by clicking a close button
  rather than navigating away. If the view is provided an App Link that does not contain
- referer data, it will have zero size and no UI will be displayed.
+ referrer data, it will have zero size and no UI will be displayed.
  */
 @interface BFAppLinkReturnToRefererView : UIView
 
 /*!
- The delegate that will be notified when the user navigates back to the referer.
+ The delegate that will be notified when the user navigates back to the referrer.
  */
 @property (nonatomic, weak) id<BFAppLinkReturnToRefererViewDelegate> delegate;
 
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSUInteger, BFIncludeStatusBarInSize) {
  */
 @property (nonatomic, strong) UIColor *textColor;
 
-@property (nonatomic, strong) BFAppLink *refererAppLink;
+@property (nonatomic, strong) BFAppLink *referrerAppLink;
 
 /*!
  Indicates whether to extend the size of the view to include the current status bar

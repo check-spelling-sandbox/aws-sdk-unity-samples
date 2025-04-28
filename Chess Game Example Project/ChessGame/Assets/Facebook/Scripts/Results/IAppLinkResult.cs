@@ -44,7 +44,7 @@ namespace Facebook.Unity
         /// Gets the ref.
         /// </summary>
         /// <value> Returns the ref for this App Link.</value>
-        ///     The referer data associated with the app link.
+        ///     The referrer data associated with the app link.
         ///     This will contain Facebook specific information like fb_access_token, fb_expires_in, and fb_ref.
         /// </value>
         string Ref { get; }
