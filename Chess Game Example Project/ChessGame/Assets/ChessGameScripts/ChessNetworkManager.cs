@@ -407,7 +407,7 @@ namespace AWSSDK.Examples.ChessGame
         # endregion
 
         # region Using AWS Lambda
-        // Invoke our AWS Lambda function that creates a new game in a DynamoDB table and reponds
+        // Invoke our AWS Lambda function that creates a new game in a DynamoDB table and responds
         // with the MatchId of the newly created match.
         public void NewMatchAsync(GameState.PlayerInfo opponent, NewMatchResponseCallback callback)
         {
