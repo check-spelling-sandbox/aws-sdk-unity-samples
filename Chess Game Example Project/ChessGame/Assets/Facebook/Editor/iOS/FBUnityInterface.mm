@@ -369,7 +369,7 @@ isPublishPermLogin:(BOOL)isPublishPermLogin
   } else if ([privacyStr caseInsensitiveCompare:@"open"] == NSOrderedSame) {
     privacy = FBSDKAppGroupPrivacyOpen;
   } else {
-    NSLog(@"Unexpced privacy type: %@", privacyStr);
+    NSLog(@"Unexpected privacy type: %@", privacyStr);
     privacy = FBSDKAppGroupPrivacyClosed;
   }
 
