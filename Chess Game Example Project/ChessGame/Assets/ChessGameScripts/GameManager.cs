@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace AWSSDK.Examples.ChessGame
 {
-    // A singletoon that provides a layer between the game scenes and the AWS network calls, while
+    // A singleton that provides a layer between the game scenes and the AWS network calls, while
     // also keeping track of the state of the game.
     public class GameManager
     {
