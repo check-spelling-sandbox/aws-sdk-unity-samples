@@ -687,7 +687,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Forsyth-Edwards Notation '{0}'. Invalid character '{1}' in piece-positions secion.", fen, c));
+                    throw new BoardStateException(string.Format("Invalid Forsyth-Edwards Notation '{0}'. Invalid character '{1}' in piece-positions section.", fen, c));
                 }
             }
             if (row != 0 || column != 8)
@@ -916,7 +916,7 @@ namespace AWSSDK.Examples.ChessGame
                     fenBuilder.Append(repeatedEmptySquares.ToString());
                     repeatedEmptySquares = 0;
                 }
-                // Last rank does not end with a slash, so instead add a space to move to the next setcion.
+                // Last rank does not end with a slash, so instead add a space to move to the next section.
                 fenBuilder.Append(row == 0 ? ' ' : '/');
             }
 
