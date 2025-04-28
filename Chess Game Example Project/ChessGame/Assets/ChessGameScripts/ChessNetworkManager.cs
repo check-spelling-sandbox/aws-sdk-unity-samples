@@ -453,7 +453,7 @@ namespace AWSSDK.Examples.ChessGame
         # endregion
 
         # region Using Amazon DynamoDB
-        // An object that contains the neccesary information to recreate a Match. Saved to and loaded
+        // An object that contains the necessary information to recreate a Match. Saved to and loaded
         // from the ChessMatches DynamoDB table.
         [DynamoDBTable("ChessMatches")]
         private class SimpleMatchInfo
