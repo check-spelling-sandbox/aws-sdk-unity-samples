@@ -356,7 +356,7 @@ namespace AWSSDK.Examples.ChessGame
                 sections[i] = sections[i].Trim();
             }
 
-            ParsePosistions(sections[0], fen);
+            ParsePositions(sections[0], fen);
 
             // Check whose turn it is
             if (sections[1].Equals("w"))
@@ -640,7 +640,7 @@ namespace AWSSDK.Examples.ChessGame
 
         // Determine what piece, if any, is on each square of the board by parsing the first
         // section of the FEN, for example: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
-        private void ParsePosistions(string ranks, string fen)
+        private void ParsePositions(string ranks, string fen)
         {
             // Row is rank - 1, for ease of array indexing (rank is a chess term -
             // the white queen and king are rank 1 in the initial game setup,
