@@ -139,7 +139,7 @@ namespace Facebook.Unity
             }
             else
             {
-                // Assume we have an list
+                // Assume we have a list
                 var rawPermissions = (IEnumerable<object>)this.ResultDictionary["permissions"];
                 permissions = rawPermissions.Select(permission => permission.ToString()).ToList();
             }
