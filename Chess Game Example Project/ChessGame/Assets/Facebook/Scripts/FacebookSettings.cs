@@ -369,7 +369,7 @@ namespace Facebook.Unity
 #endif
         }
 
-        // Unity doesn't serialize lists of lists so create a serializable type to wrapp the list for use.
+        // Unity doesn't serialize lists of lists so create a serializable type to wrap the list for use.
         [System.Serializable]
         public class UrlSchemes
         {
