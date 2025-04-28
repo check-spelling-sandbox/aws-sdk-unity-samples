@@ -169,7 +169,7 @@ namespace AWSSDK.Examples.ChessGame
             DontDestroyOnLoad(gameObject);
             // Initialize AWS SDK
             UnityInitializer.AttachToGameObject(gameObject);
-            // Keep track of this users SNS Endpoing in DynamoDB
+            // Keep track of this users SNS Endpoint in DynamoDB
             RegisterDeviceAsync();
             // Initialize AnalyticsManager so that we get the side effect of it firing at start event.
             _analyticsManager = AnalyticsManager;
@@ -601,7 +601,7 @@ namespace AWSSDK.Examples.ChessGame
             {
                 if (idToNameResponse.Exception == null)
                 {
-                    // If successful, also register our SNSEnpoint in another table.
+                    // If successful, also register our SNSEndpoint in another table.
                     if (!string.IsNullOrEmpty(SNSEndpointARN))
                     {
                         DynamoDBContext.SaveAsync<SNSEndpointLookupEntry>(new SNSEndpointLookupEntry
