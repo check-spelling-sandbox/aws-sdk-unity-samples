@@ -252,7 +252,7 @@ namespace AWSSDK.Examples.ChessGame
         }
 
         // When a move has been made, update the game manager's GameState and save either locally or
-        // overnetwork depending on whether the game is a local game or an online game.
+        // over the network depending on whether the game is a local game or an online game.
         public void UpdateMatchState(GameState.MatchState matchState)
         {
             if (matchState.Opponent.IsLocalOpponent())
