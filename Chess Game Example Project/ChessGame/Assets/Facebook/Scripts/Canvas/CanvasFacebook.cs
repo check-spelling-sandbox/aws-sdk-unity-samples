@@ -157,13 +157,13 @@ namespace Facebook.Unity.Canvas
 
             MethodArguments parameters = new MethodArguments();
             parameters.AddString("appId", appId);
-            parameters.AddPrimative("cookie", cookie);
-            parameters.AddPrimative("logging", logging);
-            parameters.AddPrimative("status", status);
-            parameters.AddPrimative("xfbml", xfbml);
+            parameters.AddPrimitive("cookie", cookie);
+            parameters.AddPrimitive("logging", logging);
+            parameters.AddPrimitive("status", status);
+            parameters.AddPrimitive("xfbml", xfbml);
             parameters.AddString("channelUrl", channelUrl);
             parameters.AddString("authResponse", authResponse);
-            parameters.AddPrimative("frictionlessRequests", frictionlessRequests);
+            parameters.AddPrimitive("frictionlessRequests", frictionlessRequests);
             parameters.AddString("version", Constants.GraphAPIVersion);
 
             // use 1/0 for booleans, otherwise you'll get strings "True"/"False"
@@ -305,7 +305,7 @@ namespace Facebook.Unity.Canvas
             MethodArguments args = new MethodArguments();
             args.AddString("product", product);
             args.AddString("action", action);
-            args.AddPrimative("quantity", quantity);
+            args.AddPrimitive("quantity", quantity);
             args.AddNullablePrimitive("quantity_min", quantityMin);
             args.AddNullablePrimitive("quantity_max", quantityMax);
             args.AddString("request_id", requestId);

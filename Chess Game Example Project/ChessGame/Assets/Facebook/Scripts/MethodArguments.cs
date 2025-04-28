@@ -42,7 +42,7 @@ namespace Facebook.Unity
             this.arguments = arguments;
         }
 
-        public void AddPrimative<T>(string argumentName, T value) where T : struct
+        public void AddPrimitive<T>(string argumentName, T value) where T : struct
         {
             this.arguments[argumentName] = value;
         }

@@ -107,13 +107,13 @@ namespace Facebook.Unity.Mobile.Android
 
             var args = new MethodArguments();
             args.AddString("appId", appId);
-            args.AddPrimative("cookie", cookie);
-            args.AddPrimative("logging", logging);
-            args.AddPrimative("status", status);
-            args.AddPrimative("xfbml", xfbml);
+            args.AddPrimitive("cookie", cookie);
+            args.AddPrimitive("logging", logging);
+            args.AddPrimitive("status", status);
+            args.AddPrimitive("xfbml", xfbml);
             args.AddString("channelUrl", channelUrl);
             args.AddString("authResponse", authResponse);
-            args.AddPrimative("frictionlessRequests", frictionlessRequests);
+            args.AddPrimitive("frictionlessRequests", frictionlessRequests);
             var initCall = new JavaMethodCall<IResult>(this, "Init");
             initCall.Call(args);
         }
@@ -298,7 +298,7 @@ namespace Facebook.Unity.Mobile.Android
             Dictionary<string, object> parameters)
         {
             MethodArguments args = new MethodArguments();
-            args.AddPrimative("logPurchase", logPurchase);
+            args.AddPrimitive("logPurchase", logPurchase);
             args.AddString("currency", currency);
             args.AddDictionary("parameters", parameters);
             var logPurchaseCall = new JavaMethodCall<IResult>(this, "AppEvents");
