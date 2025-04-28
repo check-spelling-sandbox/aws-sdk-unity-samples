@@ -31,7 +31,7 @@ namespace Facebook.Unity
         /// <summary>
         /// Gets the error.
         /// </summary>
-        /// <value>The error string from the result. If no error occured value is null or empty.</value>
+        /// <value>The error string from the result. If no error occurred value is null or empty.</value>
         string Error { get; }
 
         /// <summary>
