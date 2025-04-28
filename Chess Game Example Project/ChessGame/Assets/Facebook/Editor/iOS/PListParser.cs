@@ -94,7 +94,7 @@ namespace UnityEditor.FacebookEditor
 
         public void UpdateFBSettings(string appID, string urlSuffix, ICollection<string> appLinkSchemes)
         {
-            // Set the facbook app ID
+            // Set the facebook app ID
             this.XMLDict[PListParser.FacebookAppIDKey] = appID;
 
             // Set the requried schemas for this app
