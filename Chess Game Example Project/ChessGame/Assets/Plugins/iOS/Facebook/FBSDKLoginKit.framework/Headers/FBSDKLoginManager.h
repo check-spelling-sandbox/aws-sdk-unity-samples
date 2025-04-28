@@ -185,7 +185,7 @@ __attribute__ ((deprecated("use logInWithPublishPermissions:fromViewController:h
 /*!
  @method
 
- @abstract Issues an asychronous renewCredentialsForAccount call to the device's Facebook account store.
+ @abstract Issues an asynchronous renewCredentialsForAccount call to the device's Facebook account store.
 
  @param handler The completion handler to call when the renewal is completed. This can be invoked on an arbitrary thread.
 
