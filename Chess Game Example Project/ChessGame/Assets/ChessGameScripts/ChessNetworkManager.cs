@@ -24,7 +24,7 @@ namespace AWSSDK.Examples.ChessGame
     {
         # region Constants and configuration values
         private const string CognitoIdentityPoolId = "";
-        private const string MobileAnaylticsAppId = "";
+        private const string MobileAnalyticsAppId = "";
 
         // Needed only when building for Android
         private const string AndroidPlatformApplicationArn = "";
@@ -93,7 +93,7 @@ namespace AWSSDK.Examples.ChessGame
             {
                 if (_analyticsManager == null)
                 {
-                    _analyticsManager = MobileAnalyticsManager.GetOrCreateInstance(MobileAnaylticsAppId, Credentials, MobileAnalyticsRegion);
+                    _analyticsManager = MobileAnalyticsManager.GetOrCreateInstance(MobileAnalyticsAppId, Credentials, MobileAnalyticsRegion);
                 }
                 return _analyticsManager;
             }

@@ -91,7 +91,7 @@ Now that you have all of the resources required, open up `ChessGame/Assets/Chess
 
 ```
 private const string CognitoIdentityPoolId = null;
-private const string MobileAnaylticsAppId = null;
+private const string MobileAnalyticsAppId = null;
 
 // Needed only when building for Android
 private const string AndroidPlatformApplicationArn = null;
@@ -467,7 +467,7 @@ Skim through the Node.js code, or at least read its comments, to get an idea of 
 Now that we have the code in place, all that's left to do is add an app in the [Mobile Analytics console](https://console.aws.amazon.com/mobileanalytics/home). Give the app any name you want. After it's created, add the app ID (which you can find in [Mobile Analytics management](https://console.aws.amazon.com/mobileanalytics/home/?#/overview?consoleState=management)) to `ChessNetworkManager.cs`, like this:
 
 ```
-private const string MobileAnaylticsAppId = "1234567890abcdefgh1234567890abcd";
+private const string MobileAnalyticsAppId = "1234567890abcdefgh1234567890abcd";
 ```
 
 ## Build and run
