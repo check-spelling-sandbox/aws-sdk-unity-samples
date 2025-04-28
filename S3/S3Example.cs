@@ -172,7 +172,7 @@ namespace AWSSDK.Examples
                 else
                 {
                     ResultText.text += "\nException while posting the result object";
-                    ResultText.text += string.Format("\n receieved error {0}", responseObj.Response.HttpStatusCode.ToString());
+                    ResultText.text += string.Format("\n received error {0}", responseObj.Response.HttpStatusCode.ToString());
                 }
             });
         }
