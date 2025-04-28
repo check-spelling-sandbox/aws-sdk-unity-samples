@@ -42,7 +42,7 @@
 @interface FBSDKGraphRequest : NSObject
 
 /*!
- @abstract Initializes a new instance that use use `[FBSDKAccessToken currentAccessToken]`.
+ @abstract Initializes a new instance that uses `[FBSDKAccessToken currentAccessToken]`.
  @param graphPath the graph path (e.g., @"me").
  @param parameters the optional parameters dictionary.
  */
@@ -50,7 +50,7 @@
                        parameters:(NSDictionary *)parameters;
 
 /*!
- @abstract Initializes a new instance that use use `[FBSDKAccessToken currentAccessToken]`.
+ @abstract Initializes a new instance that uses `[FBSDKAccessToken currentAccessToken]`.
  @param graphPath the graph path (e.g., @"me").
  @param parameters the optional parameters dictionary.
  @param HTTPMethod the optional HTTP method. nil defaults to @"GET".
