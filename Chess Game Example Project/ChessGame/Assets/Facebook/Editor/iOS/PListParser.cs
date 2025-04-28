@@ -97,7 +97,7 @@ namespace UnityEditor.FacebookEditor
             // Set the facebook app ID
             this.XMLDict[PListParser.FacebookAppIDKey] = appID;
 
-            // Set the requried schemas for this app
+            // Set the required schemas for this app
             SetCFBundleURLSchemes(this.XMLDict, appID, urlSuffix, appLinkSchemes);
 
             // iOS 9+ Support
