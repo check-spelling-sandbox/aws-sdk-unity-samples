@@ -122,7 +122,7 @@ typedef NS_ENUM(NSUInteger, FBSDKTooltipColorStyle)
 
  @param view View to be used as superview.
 
- @param arrowPosition Point in view's cordinates, where arrow will be pointing
+ @param arrowPosition Point in view's coordinates, where arrow will be pointing
 
  @param arrowDirection whenever arrow should be pointing up (message bubble is below the arrow) or
  down (message bubble is above the arrow).
