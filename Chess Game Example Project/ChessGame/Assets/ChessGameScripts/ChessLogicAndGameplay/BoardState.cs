@@ -576,7 +576,7 @@ namespace AWSSDK.Examples.ChessGame
                         // If the potential coordinate does not go off bounds and does not occupy the location of another piece, allow a move there
                         if (potentialCoordinate.IsInBoardBounds() && GetPieceAtCoordinate(potentialCoordinate).Type == ChessPieceType.None)
                         {
-                            // If a white pawn moves to row 7 or a black pawn moves to row 0, a prootion is in order.
+                            // If a white pawn moves to row 7 or a black pawn moves to row 0, a promotion is in order.
                             bool isPromotionToQueen = (potentialCoordinate.Row == (TurnColor == ChessPieceColor.White ? 7 : 0));
                             // Check and checkmate values will only be verified after a move is chosen, to avoid the heavy processing for each move.
                             legalMoves.Add(new ChessMove(fromCoordinate, potentialCoordinate, fromPiece.Type, false, isPromotionToQueen, false, false, false, false, false));
