@@ -303,12 +303,12 @@ namespace UnityEditor.FacebookEditor
 
         private static XmlElement CreateContentProviderElement(XmlDocument doc, string ns, string appId)
         {
-            XmlElement provierElement = doc.CreateElement("provider");
-            provierElement.SetAttribute("name", ns, FacebookContentProviderName);
+            XmlElement providerElement = doc.CreateElement("provider");
+            providerElement.SetAttribute("name", ns, FacebookContentProviderName);
             string authorities = string.Format(CultureInfo.InvariantCulture, FacebookContentProviderAuthFormat, appId);
-            provierElement.SetAttribute("authorities", ns, authorities);
-            provierElement.SetAttribute("exported", ns, "true");
-            return provierElement;
+            providerElement.SetAttribute("authorities", ns, authorities);
+            providerElement.SetAttribute("exported", ns, "true");
+            return providerElement;
         }
 
         private static XmlElement CreateActivityElement(XmlDocument doc, string ns, string activityName, bool exported = false)
