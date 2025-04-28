@@ -52,15 +52,15 @@ namespace Facebook.Unity
                 return;
             }
 
-            object serailizedResult = MiniJSON.Json.Deserialize(this.RawResult);
-            var jsonObject = serailizedResult as IDictionary<string, object>;
+            object serializedResult = MiniJSON.Json.Deserialize(this.RawResult);
+            var jsonObject = serializedResult as IDictionary<string, object>;
             if (jsonObject != null)
             {
                 this.ResultDictionary = jsonObject;
                 return;
             }
 
-            var jsonArray = serailizedResult as IList<object>;
+            var jsonArray = serializedResult as IList<object>;
             if (jsonArray != null)
             {
                 this.ResultList = jsonArray;
