@@ -191,7 +191,7 @@ namespace AWSSDK.Examples.ChessGame
                         }
                         else
                         {
-                            Debug.LogWarning("Error loading Online Matches (is there internet connectectivity?): " + error);
+                            Debug.LogWarning("Error loading Online Matches (is there internet connectivity?): " + error);
                         }
                         if (oldGameState == null || oldGameState.Self != GameState.Self)
                         {
