@@ -428,7 +428,7 @@ namespace AWSSDK.Examples.ChessGame
                                      {
                                          FunctionName = NewMatchLambdaFunctionName,
                                          Payload = payloadStringBuilder.ToString(),
-                                         // Request Response is the default, but I am specifiying it to be clear. We expect
+                                         // Request Response is the default, but I am specifying it to be clear. We expect
                                          // the AWS Lambda Function to respond to the event we are invoking.
                                          InvocationType = InvocationType.RequestResponse
                                      },
