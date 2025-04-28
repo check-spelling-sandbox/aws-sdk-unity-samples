@@ -55,7 +55,7 @@ namespace Facebook.Unity.Canvas
 
         protected override void OnAwake()
         {
-            // Facebook JS Bridge lives in it's own gameobject for optimization reasons
+            // Facebook JS Bridge lives in its own gameobject for optimization reasons
             // see UnityObject.SendMessage()
             var bridgeObject = new GameObject("FacebookJsBridge");
             bridgeObject.AddComponent<JsBridge>();
