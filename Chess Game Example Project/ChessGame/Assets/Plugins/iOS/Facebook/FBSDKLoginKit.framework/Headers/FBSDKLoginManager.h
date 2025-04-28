@@ -192,7 +192,7 @@ __attribute__ ((deprecated("use logInWithPublishPermissions:fromViewController:h
  @discussion This can be used to explicitly renew account credentials and is provided as a convenience wrapper around
  `[ACAccountStore renewCredentialsForAccount:completion]`. Note the method will not issue the renewal call if the the
  Facebook account has not been set on the device, or if access had not been granted to the account (though the handler
- wil receive an error).
+ will receive an error).
 
  If the `[FBSDKAccessToken currentAccessToken]` was from the account store, a succesful renewal will also set
  a new "currentAccessToken".
