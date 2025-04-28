@@ -227,10 +227,10 @@ namespace UnityEditor.FacebookEditor
             string attrNameValue = newElement.GetAttribute("name");
             string elementType = newElement.Name;
 
-            XmlElement existingElment;
-            if (TryFindElementWithAndroidName(parent, attrNameValue, out existingElment, elementType))
+            XmlElement existingElement;
+            if (TryFindElementWithAndroidName(parent, attrNameValue, out existingElement, elementType))
             {
-                parent.ReplaceChild(newElement, existingElment);
+                parent.ReplaceChild(newElement, existingElement);
             }
             else
             {
