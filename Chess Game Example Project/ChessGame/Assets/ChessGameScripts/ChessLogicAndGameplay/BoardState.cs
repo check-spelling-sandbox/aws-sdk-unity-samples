@@ -12,7 +12,7 @@ namespace AWSSDK.Examples.ChessGame
         // Refers to count the following sections:
         // positions, player turn, castling, en passant target, halfmove, fullmove.
         private const int FenSectionCount = 6;
-        // Used for parseing the Algebraic Notation.
+        // Used for parsing the Algebraic Notation.
         private const int MinimumAlgebraicNotationLength = 5;
         // Constants for important Piece positions.
         private const int FirstRowWhite = 0;
