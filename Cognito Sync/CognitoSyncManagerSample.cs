@@ -88,7 +88,7 @@ namespace AWSSDK.Examples
 			// when ds.SynchronizeAsync() is called the localDataset is merged with the remoteDataset 
             // OnDatasetDeleted, OnDatasetMerged, OnDatasetSuccess,  the corresponding callback is fired.
             // The developer has the freedom of handling these events needed for the Dataset
-            playerInfo.OnSyncSuccess += this.HandleSyncSuccess; // OnSyncSucess uses events/delegates pattern
+            playerInfo.OnSyncSuccess += this.HandleSyncSuccess; // OnSyncSuccess uses events/delegates pattern
             playerInfo.OnSyncFailure += this.HandleSyncFailure; // OnSyncFailure uses events/delegates pattern
             playerInfo.OnSyncConflict = this.HandleSyncConflict;
             playerInfo.OnDatasetMerged = this.HandleDatasetMerged;
