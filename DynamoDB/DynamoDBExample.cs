@@ -26,7 +26,7 @@ namespace AWSSDK.Examples
 
         public Button lowLevelButton;
         public Button midLevelScanButton;
-        public Button highLevelobjectMapperButton;
+        public Button highLevelObjectMapperButton;
 
         // Use this for initialization
         void Start()
@@ -34,7 +34,7 @@ namespace AWSSDK.Examples
             UnityInitializer.AttachToGameObject(this.gameObject);
             lowLevelButton.onClick.AddListener(LowLevelListener);
             midLevelScanButton.onClick.AddListener(MidLevelScanListener);
-            highLevelobjectMapperButton.onClick.AddListener(HighLevelListener);
+            highLevelObjectMapperButton.onClick.AddListener(HighLevelListener);
         }
 
         void LowLevelListener()
