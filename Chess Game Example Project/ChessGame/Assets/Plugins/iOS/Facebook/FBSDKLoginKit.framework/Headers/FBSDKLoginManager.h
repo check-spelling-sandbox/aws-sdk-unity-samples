@@ -88,7 +88,7 @@ typedef NS_ENUM(NSUInteger, FBSDKLoginBehavior)
    */
   FBSDKLoginBehaviorSystemAccount,
   /*!
-   @abstract Attemps log in through a modal \c UIWebView pop up
+   @abstract Attempts log in through a modal \c UIWebView pop up
 
    @note This behavior is only available to certain types of apps. Please check the Facebook
    Platform Policy to verify your app meets the restrictions.
