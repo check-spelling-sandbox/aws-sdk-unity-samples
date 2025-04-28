@@ -13,7 +13,7 @@ This *quick start* assumes a familiarity with some AWS tools. If at any point yo
 
 ### Things to Create
 #### AWS Account
-If you do not already have an AWS account, you can create one [here](https://aws.amazon.com/getting-started/), and take advantage of the 
+If you do not already have an AWS account, see [getting started](https://aws.amazon.com/getting-started/) for instructions to create one, and take advantage of the
 [AWS Free Usage Tier](http://aws.amazon.com/free/).
 
 #### Amazon DynamoDB and AWS Lambda
@@ -154,7 +154,7 @@ Before we get to the good stuff, you will need some resources.
 ## Prerequisites
 This game sample is built using Unity 5.2.2 and the AWS Mobile SDK for Unity 2.1.0.0. Do not use versions of Unity earlier than 5.2.2.
 
-To get the game to work, you first need to set up your AWS services. We will go through these step by step, but this tutorial will not cover creating your AWS account. If you do not already have an AWS account, you can create one [here](https://aws.amazon.com/getting-started/), and take advantage of the [AWS Free Usage Tier](http://aws.amazon.com/free/).
+To get the game to work, you first need to set up your AWS services. We will go through these step by step, but this tutorial will not cover creating your AWS account. If you do not already have an AWS account, see [getting started](https://aws.amazon.com/getting-started/) for instructions to create one, and take advantage of the [AWS Free Usage Tier](http://aws.amazon.com/free/).
 
 For the Amazon Simple Notification portion of this sample to work on Android, you will need google-play-services.jar, which you can find in the location `<android-sdk>/extras/google/google_play_services/libproject/google-play-services_lib/libs/`. Copy the jar file to the `ChessGame/Assets/Plugin/Android` folder in the project. You can remove all SNS-related code from the game. Other functionalities do not depend on it.
 
