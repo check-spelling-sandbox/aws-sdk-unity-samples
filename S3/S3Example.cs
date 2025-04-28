@@ -92,7 +92,7 @@ namespace AWSSDK.Examples
 
         #region Get Bucket List
         /// <summary>
-        /// Example method to Demostrate GetBucketList
+        /// Example method to Demonstrate GetBucketList
         /// </summary>
         public void GetBucketList()
         {

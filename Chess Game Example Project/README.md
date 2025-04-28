@@ -1,5 +1,5 @@
 # AWS Unity Chess Game Sample
-This is a chess game built with [Unity](http://unity3d.com/), using the [AWS Mobile SDK for Unity](https://github.com/aws/aws-sdk-unity). This sample's purpose is to demonstate how to add a wealth of backend features to a game by leveraging the power of AWS. 
+This is a chess game built with [Unity](http://unity3d.com/), using the [AWS Mobile SDK for Unity](https://github.com/aws/aws-sdk-unity). This sample's purpose is to demonstrate how to add a wealth of backend features to a game by leveraging the power of AWS. 
 
 ## Why Are You Here?
 I'm assuming you are here to learn how to make use of the AWS Mobile SDK for Unity in a game. If you want to learn by following a step-by-step tutorial that will take you from start to finish, you should ignore the [Quick Start](#quick-start) section below and skip to the [tutorial](#tutorial) section. If you would rather learn by taking the minimal amount of steps to get the game running, so that you can tinker around with the working sample, continue into the [Quick Start](#quick-start) section.

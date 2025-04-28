@@ -83,7 +83,7 @@ namespace AWSSDK.Examples
 
         #region Invoke
         /// <summary>
-        /// Example method to demostrate Invoke. Invokes the Lambda function with the specified
+        /// Example method to demonstrate Invoke. Invokes the Lambda function with the specified
         /// function name (e.g. helloWorld) with the parameters specified in the Event JSON.
         /// Because no InvokationType is specified, the default 'RequestResponse' is used, meaning
         /// that we expect the AWS Lambda function to return a value.
@@ -115,7 +115,7 @@ namespace AWSSDK.Examples
 
         #region List Functions
         /// <summary>
-        /// Example method to demostrate ListFunctions
+        /// Example method to demonstrate ListFunctions
         /// </summary>
         public void ListFunctions()
         {

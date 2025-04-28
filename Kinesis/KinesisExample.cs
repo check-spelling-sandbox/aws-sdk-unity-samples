@@ -89,7 +89,7 @@ namespace AWSSDK.Examples
 
         # region Put Record
         /// <summary>
-        /// Example method to demostrate Kinesis PutRecord. Puts a record with the data specified
+        /// Example method to demonstrate Kinesis PutRecord. Puts a record with the data specified
         /// in the "Record Data" Text Input Field to the stream specified in the "Stream Name"
         /// Text Input Field.
         /// </summary>
@@ -126,7 +126,7 @@ namespace AWSSDK.Examples
 
         # region List Streams
         /// <summary>
-        /// Example method to demostrate Kinesis ListStreams. Prints all of the Kinesis Streams
+        /// Example method to demonstrate Kinesis ListStreams. Prints all of the Kinesis Streams
         /// that your Cognito Identity has access to.
         /// </summary>
         public void ListStreams()
@@ -156,7 +156,7 @@ namespace AWSSDK.Examples
 
         # region Describe Stream
         /// <summary>
-        /// Example method to demostrate Kinesis DescribeStream. Prints information about the
+        /// Example method to demonstrate Kinesis DescribeStream. Prints information about the
         /// stream specified in the "Stream Name" Text Input Field.
         /// </summary>
         public void DescribeStream()
