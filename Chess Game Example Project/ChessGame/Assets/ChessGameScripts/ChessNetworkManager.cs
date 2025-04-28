@@ -642,7 +642,7 @@ namespace AWSSDK.Examples.ChessGame
 #if UNITY_ANDROID
             if (string.IsNullOrEmpty(AndroidPlatformApplicationArn) || string.IsNullOrEmpty(GoogleConsoleProjectId))
             {
-                Debug.LogWarning("Will not regester with SNS. Both Android Platform Application ARN and Google Console Project must be provided.");
+                Debug.LogWarning("Will not register with SNS. Both Android Platform Application ARN and Google Console Project must be provided.");
             }
             else
             {
@@ -679,7 +679,7 @@ namespace AWSSDK.Examples.ChessGame
 #elif UNITY_IOS
             if (string.IsNullOrEmpty(IOSPlatformApplicationArn))
             {
-                Debug.LogWarning("Will not regester for SNS. iOS Platform Application ARN must be provided.");
+                Debug.LogWarning("Will not register for SNS. iOS Platform Application ARN must be provided.");
             }
             else
             {
