@@ -390,7 +390,7 @@ namespace AWSSDK.Examples.ChessGame
             }
         }
 
-        // Attch the Facebook Login token to our Cognito Identity.
+        // Attach the Facebook Login token to our Cognito Identity.
         private void FacebookLoginCallback(ILoginResult result)
         {
             if (result.Error != null || !FB.IsLoggedIn)
