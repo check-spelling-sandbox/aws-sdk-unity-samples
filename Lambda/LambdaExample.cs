@@ -85,7 +85,7 @@ namespace AWSSDK.Examples
         /// <summary>
         /// Example method to demonstrate Invoke. Invokes the Lambda function with the specified
         /// function name (e.g. helloWorld) with the parameters specified in the Event JSON.
-        /// Because no InvokationType is specified, the default 'RequestResponse' is used, meaning
+        /// Because no InvocationType is specified, the default 'RequestResponse' is used, meaning
         /// that we expect the AWS Lambda function to return a value.
         /// </summary>
         public void Invoke()
