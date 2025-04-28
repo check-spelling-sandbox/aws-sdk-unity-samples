@@ -105,7 +105,7 @@ typedef NS_ENUM(NSUInteger, FBSDKLoginBehavior)
  a cached token available (typically in your viewDidLoad).
 
  If you are managing your own token instances outside of "currentAccessToken", you will need to set
- "currentAccessToken" before calling logIn* to authorize futher permissions on your tokens.
+ "currentAccessToken" before calling logIn* to authorize further permissions on your tokens.
  */
 @interface FBSDKLoginManager : NSObject
 
