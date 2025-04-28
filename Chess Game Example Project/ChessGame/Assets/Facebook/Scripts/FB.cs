@@ -752,7 +752,7 @@ namespace Facebook.Unity
             }
 
             /// <summary>
-            /// Fetchs the deferred app link data.
+            /// Fetches the deferred app link data.
             /// </summary>
             /// <param name="callback">A callback for when the call is complete.</param>
             public static void FetchDeferredAppLinkData(
