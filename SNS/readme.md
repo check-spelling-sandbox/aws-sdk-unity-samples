@@ -29,7 +29,7 @@ Note: To run the SNS Sample you will need to create a Cognito Identity Pool, to 
 ...
  <category android:name="<your package name>" />
 ...
-<service android:name="<packge name for service>.GCMIntentService" />
+<service android:name="<package name for service>.GCMIntentService" />
 ```
 
 ### Run the sample scene
