@@ -548,7 +548,7 @@ namespace AWSSDK.Examples.ChessGame
                 case ChessPieceType.Pawn:
                     // 1 if white, -1 if black.
                     int pawnDirection;
-                    // How many steps foeward this pawn is allowed to move.
+                    // How many steps forward this pawn is allowed to move.
                     int pawnForwardAmountAllowed = 1;
                     if (TurnColor == ChessPieceColor.White)
                     {
