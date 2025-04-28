@@ -482,7 +482,7 @@ That's it (for the scope of this sample)! We now have a game with a ton of netwo
 ## What's next?
 There is still some work to do to get your game ready for release and infinite possibilities for adding more cool features.
 
-Our game is set up to do all of the checking for legal chess moves client-side. This opens up a lot of opportunities for users to cheat. Consider how we could use some of the tools we've talked about to keep users from cheating, and take a look [here](http://mobile.awsblog.com/post/TxH3SWPR48HGAO/Using-Amazon-Cognito-and-AWS-Lambda-to-Detect-Cheating).
+Our game is set up to do all of the checking for legal chess moves client-side. This opens up a lot of opportunities for users to cheat. Consider how we could use some of the tools we've talked about to keep users from cheating, and take a look at [Using Amazon Cognito and AWS Lambda to Detect Cheating](https://aws.amazon.com/blogs/mobile/using-amazon-cognito-and-aws-lambda-to-detect-cheating/).
 
 Also, in this sample, we make users manually copy and paste their friends' IDs to add them. When making your own game, consider integrating the Facebook SDK or other social network tools to make finding and adding friends easy on the user. Or, you could use AWS to design a way for users to create unique user names.
 
