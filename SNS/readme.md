@@ -4,7 +4,7 @@
 
 ### Configure the SNS Sample
 
-Note: To run the SNS Sample you will need to create a Cognito Identity Pool, to handle authentication with AWS.  A pool can be created on the [Cognito console]( https://console.aws.amazon.com/cognito/home).You will also need to create platform applications for Android & iOS to register the device token for iOS and Registration id for Android. The platform application can be created on the [SNS console](https://console.aws.amazon.com/sns/v2/home), you can refer SNS mobile push guidelines [here](http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html).
+Note: To run the SNS Sample you will need to create a Cognito Identity Pool, to handle authentication with AWS.  A pool can be created on the [Cognito console]( https://console.aws.amazon.com/cognito/home).You will also need to create platform applications for Android & iOS to register the device token for iOS and Registration id for Android. The platform application can be created on the [SNS console](https://console.aws.amazon.com/sns/v2/home), you can refer to [Sending mobile push notifications with Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html).
 
 1. Open the SNSExample unity scene
 2. Click "SNSExample" game object in "Hierarchy Pane".
