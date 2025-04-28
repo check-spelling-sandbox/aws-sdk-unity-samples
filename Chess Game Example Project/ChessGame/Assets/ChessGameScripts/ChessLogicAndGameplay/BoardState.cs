@@ -463,11 +463,11 @@ namespace AWSSDK.Examples.ChessGame
             return legalMoves;
         }
 
-        private HashSet<ChessMove> DetermineTranslationalMovements(List<int[]> tranlations, Coordinate fromCoordinate, ChessPiece fromPiece)
+        private HashSet<ChessMove> DetermineTranslationalMovements(List<int[]> translations, Coordinate fromCoordinate, ChessPiece fromPiece)
         {
             Coordinate potentialCoordinate;
             var legalMoves = new HashSet<ChessMove>();
-            foreach (int[] translation in tranlations)
+            foreach (int[] translation in translations)
             {
                 potentialCoordinate = new Coordinate(fromCoordinate, translation[0], translation[1]);
                 if (potentialCoordinate.IsInBoardBounds())
