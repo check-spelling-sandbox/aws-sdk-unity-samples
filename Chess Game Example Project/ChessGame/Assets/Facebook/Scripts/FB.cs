@@ -610,7 +610,7 @@ namespace Facebook.Unity
 
         private static void LogVersion()
         {
-            // If we have initlized we can also get the underlying sdk version
+            // If we have initialized we can also get the underlying sdk version
             if (facebook != null)
             {
                 FacebookLogger.Info(string.Format(
