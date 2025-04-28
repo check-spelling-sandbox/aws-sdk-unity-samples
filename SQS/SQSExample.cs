@@ -166,7 +166,7 @@ namespace AWSSDK.Examples
                         var messages = result.Response.Messages;
                         messages.ForEach(m =>
                         {
-                            Debug.Log(@"Message Id  = " + m.MessageId);
+                            Debug.Log(@"Message ID = " + m.MessageId);
                             Debug.Log(@"Mesage = " + m.Body);
                         });
                     }

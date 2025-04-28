@@ -303,7 +303,7 @@ namespace AWSSDK.Examples.ChessGame
             playersDataset.SynchronizeAsync();
         }
 
-        // Extract a dictionary with keys: player Id and values: PlayerInfo objects from the
+        // Extract a dictionary with keys: player ID and values: PlayerInfo objects from the
         // key-value pairs in the dataset.
         private static Dictionary<string, GameState.PlayerInfo> PlayersDatasetToDict(Dataset playersDataset, string selfId, out GameState.PlayerInfo self)
         {
@@ -344,7 +344,7 @@ namespace AWSSDK.Examples.ChessGame
             return friendsDict;
         }
 
-        // Extract a dictionary with keys: match Id and values: MatchState objects from the
+        // Extract a dictionary with keys: match ID and values: MatchState objects from the
         // key-value pairs in the dataset.
         private static Dictionary<string, GameState.MatchState> MatchesDatasetToDict(Dataset matchesDataset, Dictionary<string, GameState.PlayerInfo> friendsDict)
         {
@@ -635,7 +635,7 @@ namespace AWSSDK.Examples.ChessGame
 
         # region Using Amazon Simple Notification Service
         // Register the device with SNS using the iOS Platform Application ARN or Android Platform
-        // Application ARN and Google Project Id, and obtain a topic endpoint ARN for the device
+        // Application ARN and Google Project ID, and obtain a topic endpoint ARN for the device
         // used.
         private void RegisterDeviceAsync()
         {

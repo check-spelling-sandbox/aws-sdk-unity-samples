@@ -66,7 +66,7 @@ namespace AWSSDK.Examples.ChessGame
                 Self = self;
                 if (self == null)
                 {
-                    YourIdInputField.text = "No Id";
+                    YourIdInputField.text = "No ID";
                     YourNameInputField.text = "No Name";
                 }
                 else
@@ -96,7 +96,7 @@ namespace AWSSDK.Examples.ChessGame
             // Do not allow id to be edited, i.e. revert it back.
             if (Self == null || Self.Id == null)
             {
-                YourIdInputField.text = "No Id Yet";
+                YourIdInputField.text = "No ID Yet";
             }
             else
             {

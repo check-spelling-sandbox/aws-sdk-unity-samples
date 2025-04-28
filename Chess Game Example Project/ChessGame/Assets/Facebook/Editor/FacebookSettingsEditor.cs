@@ -37,7 +37,7 @@ namespace Facebook.Unity.Editor
         private bool showAboutSection = false;
 
         private GUIContent appNameLabel = new GUIContent("App Name [?]:", "For your own use and organization.\n(ex. 'dev', 'qa', 'prod')");
-        private GUIContent appIdLabel = new GUIContent("App Id [?]:", "Facebook App Ids can be found at https://developers.facebook.com/apps");
+        private GUIContent appIdLabel = new GUIContent("App ID [?]:", "Facebook App IDs can be found at https://developers.facebook.com/apps");
 
         private GUIContent urlSuffixLabel = new GUIContent("URL Scheme Suffix [?]", "Use this to share Facebook APP ID's across multiple iOS apps.  https://developers.facebook.com/docs/ios/share-appid-across-multiple-apps-ios-sdk/");
 
@@ -73,10 +73,10 @@ namespace Facebook.Unity.Editor
 
         private void AppIdGUI()
         {
-            EditorGUILayout.LabelField("Add the Facebook App Id(s) associated with this game");
+            EditorGUILayout.LabelField("Add the Facebook App ID(s) associated with this game");
             if (FacebookSettings.AppIds.Count == 0 || FacebookSettings.AppId == "0")
             {
-                EditorGUILayout.HelpBox("Invalid App Id", MessageType.Error);
+                EditorGUILayout.HelpBox("Invalid App ID", MessageType.Error);
             }
 
             EditorGUILayout.BeginHorizontal();
@@ -99,7 +99,7 @@ namespace Facebook.Unity.Editor
             }
 
             EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("Add Another App Id"))
+            if (GUILayout.Button("Add Another App ID"))
             {
                 FacebookSettings.AppLabels.Add("New App");
                 FacebookSettings.AppIds.Add("0");
@@ -109,7 +109,7 @@ namespace Facebook.Unity.Editor
 
             if (FacebookSettings.AppLabels.Count > 1)
             {
-                if (GUILayout.Button("Remove Last App Id"))
+                if (GUILayout.Button("Remove Last App ID"))
                 {
                     FacebookSettings.AppLabels.Pop();
                     FacebookSettings.AppIds.Pop();
@@ -122,10 +122,10 @@ namespace Facebook.Unity.Editor
             EditorGUILayout.Space();
             if (FacebookSettings.AppIds.Count > 1)
             {
-                EditorGUILayout.HelpBox("2) Select Facebook App Id to be compiled with this game", MessageType.None);
+                EditorGUILayout.HelpBox("2) Select Facebook App ID to be compiled with this game", MessageType.None);
                 GUI.changed = false;
                 FacebookSettings.SelectedAppIndex = EditorGUILayout.Popup(
-                    "Selected App Id",
+                    "Selected App ID",
                     FacebookSettings.SelectedAppIndex,
                     FacebookSettings.AppIds.ToArray());
                 if (GUI.changed)

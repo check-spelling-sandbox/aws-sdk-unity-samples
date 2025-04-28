@@ -7,8 +7,8 @@
 1. After importing AWSSDK.MobileAnalytics.x.x.x.x.unitypackage, in the Project window, navigate to the AWSSDK/examples/Mobile Analytics folder.
 2. Open the scene called AmazonMobileAnalyticsSample.
 3. Click on the AmazonMobileAnalyticsSample game object.
-4. Specify your App Id (created in the [Amazon Mobile Analytics console](https://console.aws.amazon.com/mobileanalytics/home/?region=us-east-1#/overview?consoleState=management)) in the "App Id" field.
-5. Specify your Cognito Identity Pool Id (created using the [Cognito console](https://console.aws.amazon.com/cognito/home)) in the "Cognito Identity Pool Id" field.
+4. Specify your App ID (created in the [Amazon Mobile Analytics console](https://console.aws.amazon.com/mobileanalytics/home/?region=us-east-1#/overview?consoleState=management)) in the "App ID" field.
+5. Specify your Cognito Identity Pool ID (created using the [Cognito console](https://console.aws.amazon.com/cognito/home)) in the "Cognito Identity Pool ID" field.
 6. If your Cognito Identity Pool is in a region other than "us-east-1", change the "Cognito Identity Region" value in "Inspector Pane".
 7. If you are using a region other than "us-east-1" for Mobile Analytics, you should change the "Analytics Region" value as well.
 8. Set up a "link.xml" file as described on the [Unity SDK readme](https://github.com/aws/aws-sdk-net/blob/master/Unity.README.md#unity-sdk-fundamentals), which is necessary if you will be building with assembly stripping or IL2CPP. Be sure to add the line `<assembly fullname="AWSSDK.MobileAnalytics" preserve="all"/>`.
