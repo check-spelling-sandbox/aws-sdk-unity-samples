@@ -193,7 +193,7 @@ namespace Facebook.Unity.Editor
                             msg = "OpenSSL not found. Make sure that OpenSSL is installed, and that it is in your path.";
                             break;
                         case FacebookAndroidUtil.ErrorKeytoolError:
-                            msg = "Unkown error while getting Debug Android Key Hash.";
+                            msg = "Unknown error while getting Debug Android Key Hash.";
                             break;
                     }
 
