@@ -153,7 +153,7 @@ static NSMutableArray *g_instances;
     // stuff in a didComplete so that Unity doesn't treat it as a malformed response.
     results = @{ @"didComplete" : @"1" };
   } else if([[results objectForKey:@"completionGesture"] isEqualToString:@"cancel"]) {
-    // The app invitie dialog doesn't have a cancel but returns "completionGesture" "cancel"
+    // The app invite dialog doesn't have a cancel but returns "completionGesture" "cancel"
     [FBUnityUtility sendCancelToUnity:FBUnityMessageName_OnAppInviteComplete requestId:_requestID];
     [self complete];
   }
