@@ -178,7 +178,7 @@ namespace AWSSDK.Examples.ChessGame
                             SetPieceAtCoordinate(new ChessPiece(ChessPieceColor.None, ChessPieceType.None), new Coordinate(newMove.To, 1, 0));
                         }
                     }
-                    // Mark if the new move triggers the possibilty of an En Passant from the following turn.
+                    // Mark if the new move triggers the possibility of an En Passant from the following turn.
 
                     int pawnDoubleFromRow = TurnColor == ChessPieceColor.White ? 1 : 6;
                     int pawnDoubleToRow = TurnColor == ChessPieceColor.White ? 3 : 4;
