@@ -400,7 +400,7 @@ namespace Facebook.Unity
         }
 
         /// <summary>
-        /// Legacy feed share. Only use this dialog if you need the legacy parameters otherwiese use
+        /// Legacy feed share. Only use this dialog if you need the legacy parameters otherwise use
         /// <see cref="FB.ShareLink(System.String, System.String, System.String, System.String, Facebook.FacebookDelegate"/>.
         /// </summary>
         /// <param name="toId">
