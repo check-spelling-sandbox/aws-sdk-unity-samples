@@ -239,7 +239,7 @@ namespace Facebook.Unity
         /// <summary>
         /// Gets or sets the app link schemes.
         /// </summary>
-        /// <value>A list of app link schemese for each app</value>
+        /// <value>A list of app link schemes for each app</value>
         public static List<UrlSchemes> AppLinkSchemes
         {
             get
