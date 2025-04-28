@@ -23,7 +23,7 @@ namespace AWSSDK.Examples
 {
     public class GCM
     {
-        //namepsaced java class name which will be invoked
+        //namespaced java class name which will be invoked
         private const string CLASS_NAME = "com.amazonaws.unity.AWSUnityGCMWrapper";
 
         public static void Register(Action<string> OnRegisterCallback,params string[] senderId)
