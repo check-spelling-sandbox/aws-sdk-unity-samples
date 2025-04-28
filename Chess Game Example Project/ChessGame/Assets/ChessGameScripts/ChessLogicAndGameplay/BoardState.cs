@@ -809,7 +809,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Ivalid file character '{1}'", moveString, moveString[i]));
+                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Invalid file character '{1}'", moveString, moveString[i]));
                 }
                 if (Char.IsNumber(moveString[i]) && moveString[i] != '0' && moveString[i] != '9')
                 {
@@ -818,7 +818,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Ivalid rank character '{1}'", moveString, moveString[i]));
+                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Invalid rank character '{1}'", moveString, moveString[i]));
                 }
                 if (moveString[i] == '-')
                 {
@@ -832,7 +832,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Ivalid capture character '{1}'", moveString, moveString[i]));
+                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Invalid capture character '{1}'", moveString, moveString[i]));
                 }
 
                 if (FileToColumn.ContainsKey(moveString[i]))
@@ -842,7 +842,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Ivalid file character '{1}'", moveString, moveString[i]));
+                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Invalid file character '{1}'", moveString, moveString[i]));
                 }
                 if (Char.IsNumber(moveString[i]) && moveString[i] != '0' && moveString[i] != '9')
                 {
@@ -851,7 +851,7 @@ namespace AWSSDK.Examples.ChessGame
                 }
                 else
                 {
-                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Ivalid rank character '{1}'", moveString, moveString[i]));
+                    throw new BoardStateException(string.Format("Invalid Long Algebraic Notation '{0}'. Invalid rank character '{1}'", moveString, moveString[i]));
                 }
             }
 

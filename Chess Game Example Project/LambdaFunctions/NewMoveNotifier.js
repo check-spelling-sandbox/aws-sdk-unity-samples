@@ -68,7 +68,7 @@ exports.handler = function(event, context) {
                 };
                 dynamodb.query(params, publishNotifications);
             } else {
-                onRecordProcessed('Inavlid Forsyth Edwards Notation ' + forsythEdwardsNotation)
+                onRecordProcessed('Invalid Forsyth Edwards Notation ' + forsythEdwardsNotation)
             }
         }
     }

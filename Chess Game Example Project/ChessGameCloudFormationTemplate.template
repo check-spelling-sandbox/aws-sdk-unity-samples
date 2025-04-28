@@ -238,7 +238,7 @@
                 {
                   "Ref": "SNSRegionParameter"
                 },
-                "',a=e.Records.length;if(0===a)o.succeed();else{var s=function(e){e&&console.log(e),a--,0===a&&o.succeed()};for(i=0;i<e.Records.length;i++)if(record=e.Records[i],'INSERT'==record.eventName||'MODIFY'==record.eventName)if(forsythEdwardsNotation=record.dynamodb.NewImage.FEN.S.trim(),nextMoveIndicator=forsythEdwardsNotation.split(' ')[1],playerToNotify='','w'==nextMoveIndicator?playerToNotify=record.dynamodb.NewImage.WhitePlayerId.S:'b'==nextMoveIndicator&&(playerToNotify=record.dynamodb.NewImage.BlackPlayerId.S),playerToNotify){var d=new AWS.DynamoDB({region:t}),l={TableName:'SNSEndpointLookup',KeyConditions:{PlayerId:{ComparisonOperator:'EQ',AttributeValueList:[{S:playerToNotify}]}}};d.query(l,r)}else s('Inavlid Forsyth Edwards Notation '+forsythEdwardsNotation);else s(null)}};"
+                "',a=e.Records.length;if(0===a)o.succeed();else{var s=function(e){e&&console.log(e),a--,0===a&&o.succeed()};for(i=0;i<e.Records.length;i++)if(record=e.Records[i],'INSERT'==record.eventName||'MODIFY'==record.eventName)if(forsythEdwardsNotation=record.dynamodb.NewImage.FEN.S.trim(),nextMoveIndicator=forsythEdwardsNotation.split(' ')[1],playerToNotify='','w'==nextMoveIndicator?playerToNotify=record.dynamodb.NewImage.WhitePlayerId.S:'b'==nextMoveIndicator&&(playerToNotify=record.dynamodb.NewImage.BlackPlayerId.S),playerToNotify){var d=new AWS.DynamoDB({region:t}),l={TableName:'SNSEndpointLookup',KeyConditions:{PlayerId:{ComparisonOperator:'EQ',AttributeValueList:[{S:playerToNotify}]}}};d.query(l,r)}else s('Invalid Forsyth Edwards Notation '+forsythEdwardsNotation);else s(null)}};"
               ]
             ]
           }
